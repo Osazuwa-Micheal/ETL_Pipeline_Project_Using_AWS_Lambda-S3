@@ -24,4 +24,4 @@ The goal of this project is to demonstrate how to build a **production-ready, sc
 ## 🏗 Architecture
 
 The ETL pipeline follows a simple but powerful serverless design:
-
+![AWS Architecture](https://github.com/Osazuwa-Micheal/ETL_Pipeline_Project_Using_AWS_Lambda-S3/blob/main/document/AWS_Architecture.png)
