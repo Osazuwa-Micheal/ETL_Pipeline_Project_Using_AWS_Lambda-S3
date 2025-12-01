@@ -1,0 +1,30 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "SourceBucketRead",
+			"Effect": "Allow",
+			"Action": [
+				"s3:GetObject",
+				"s3:ListBucket"
+			],
+			"Resource": [
+				"arn:aws:s3:::my-project-source-data",
+				"arn:aws:s3:::my-project-source-data/*"
+			]
+		},
+		{
+			"Sid": "TargetBucketWrite",
+			"Effect": "Allow",
+			"Action": [
+				"s3:PutObject",
+				"s3:GetObject",
+				"s3:ListBucket"
+			],
+			"Resource": [
+				"arn:aws:s3:::my-project-cleaned-data",
+				"arn:aws:s3:::my-project-cleaned-data/*"
+			]
+		}
+	]
+}
