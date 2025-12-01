@@ -97,9 +97,16 @@ Exact duplicates are removed to ensure a clean dataset.
 ## 🛠 Technologies Used
 
 - **Python 3.12**  
-- **AWS Lambda** (serverless ETL)  
-- **AWS S3** (source and target storage)  
-- **AWS CloudWatch** (metrics and logging)  
+- **AWS Lambda** (serverless ETL)
+  <img width="1882" height="757" alt="image" src="https://github.com/user-attachments/assets/7c1381c8-b51e-430f-96fb-778371eb9912" />
+ 
+- **AWS S3** (source and target storage)
+  <img width="1883" height="756" alt="image" src="https://github.com/user-attachments/assets/babfd39c-d9a4-4675-bfbb-aadebfbbddb8" />
+ 
+- **AWS CloudWatch** (metrics and logging)
+  <img width="1875" height="755" alt="image" src="https://github.com/user-attachments/assets/2f0d24ba-5851-475e-a46b-5a8f476d6875" />
+
+  
 - **pandas** (data cleaning and transformation)  
 - **re (regex)** (string and year processing)
 
@@ -153,3 +160,5 @@ Perfect for:
 
 ## 📄 License
 MIT License — Feel free to use and modify.
+
+
